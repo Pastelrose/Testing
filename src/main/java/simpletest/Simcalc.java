@@ -16,7 +16,7 @@ public class Simcalc {
 
 
 	public void div(int a,int b){
-	
+	if (b!=0)//분모가 0인경우
 			result= a/b;
 		
 	}
