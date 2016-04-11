@@ -32,6 +32,14 @@ public class SimcalcTest {
 		assertEquals(5,calc.getResult());
 	
 	}
+	public void testInc() {
+		Simcalc calc = new Simcalc();
+		calc.inc(100);
+		assertEquals(100,calc.getResult());
+		calc.inc(200);
+		assertEquals(300,calc.getResult());
+	
+	}
 
 
 
