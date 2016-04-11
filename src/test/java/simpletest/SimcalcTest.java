@@ -11,15 +11,17 @@ public class SimcalcTest {
 		Simcalc calc = new Simcalc();
 		calc.add(10,20);
 		assertEquals(30,calc.getResult());
-	
 	}
 	@Test
 	public void testSub() {
 		Simcalc calc = new Simcalc();
 		calc.sub(10,20);
-		assertEquals(-10,calc.getResult());
-	
+		assertEquals(-10,calc.getResult());	
 	}
-
-
+	@Test
+	public void testMul() {
+		Simcalc calc = new Simcalc();
+		calc.mul(10,20);
+		assertEquals(200,calc.getResult());	
+	}
 }
