@@ -13,5 +13,13 @@ public class SimcalcTest {
 		assertEquals(30,calc.getResult());
 	
 	}
+	@Test
+	public void testSub() {
+		Simcalc calc = new Simcalc();
+		calc.sub(10,20);
+		assertEquals(-10,calc.getResult());
+	
+	}
+
 
 }
