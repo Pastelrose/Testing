@@ -9,7 +9,9 @@ public class Simcalc {
 	public void sub(int a,int b){
 		result= a-b;
 	}
-
+	public void div(int a,int b){
+		result= a/b;
+	}
 	public int getResult(){
 		return result;
 	}
